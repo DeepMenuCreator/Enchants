@@ -1,0 +1,16 @@
+name: EnchantPickaxe
+version: '${project.version}'
+main: com.example.enchants.EnchantPlugin
+api-version: '1.21'
+description: Custom enchantments for pickaxes - Magnet, Drill, MegaDrill
+author: Example
+
+commands:
+  enchantpickaxe:
+    description: Выдача кастомных зачарований
+    usage: /enchantpickaxe <magnet|drill|megadrill>
+    permission: enchantpickaxe.admin
+
+permissions:
+  enchantpickaxe.admin:
+    default: op
